@@ -16,6 +16,7 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'searchkick', '~> 0.9.1'
 gem 'rails_12factor'
 gem 'puma'
+gem 'aws-sdk', '~> 2.1.30'
 
 
 group :development, :test do
