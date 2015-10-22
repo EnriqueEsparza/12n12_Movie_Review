@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.0'
+ruby '2.2.0', :patchlevel => '0'
 
 gem 'rails', '4.2.3'
 gem 'pg'
@@ -14,7 +14,7 @@ gem 'devise', '~> 3.5.2'
 gem 'paperclip', '~> 4.3.0'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'searchkick', '~> 0.9.1'
-gem 'rails_12factor'
+gem 'rails_12factor', group: "production"
 gem 'puma'
 gem 'aws-sdk', '~> 2.1.30'
 
