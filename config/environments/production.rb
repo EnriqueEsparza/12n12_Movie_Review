@@ -1,4 +1,5 @@
 Rails.application.configure do
+  RAILS_ENV=production
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -86,4 +87,5 @@ Rails.application.configure do
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
+
 end
