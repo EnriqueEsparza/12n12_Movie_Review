@@ -197,6 +197,7 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk (< 2.0)
+  aws-sdk-v1
   bootstrap-sass (~> 3.3.5.1)
   byebug
   coffee-rails (~> 4.1.0)

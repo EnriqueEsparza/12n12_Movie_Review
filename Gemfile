@@ -17,6 +17,7 @@ gem 'searchkick', '~> 0.9.1'
 gem 'rails_12factor', group: "production"
 gem 'puma'
 gem 'aws-sdk', '<2.0'
+gem 'aws-sdk-v1'
 
 
 group :development, :test do
