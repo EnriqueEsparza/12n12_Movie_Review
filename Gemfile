@@ -11,12 +11,13 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'devise', '~> 3.5.2'
-gem 'paperclip'
+gem 'paperclip', "~> 3.5.3"
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'searchkick', '~> 0.9.1'
 gem 'rails_12factor', group: "production"
 gem 'puma'
-gem 'aws-sdk'
+gem 'aws-sdk-v1'
+gem 'aws-sdk', '< 2.0'
 
 
 group :development, :test do
