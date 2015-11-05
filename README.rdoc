@@ -1,28 +1,22 @@
-== README
+Movie Review Author: Enrique Esparza
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Description: This app allows authenticated user to add, edit, delete movies,
+and pertaining reviews, images, star ratings.
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Github:https://github.com/EnriqueEsparza/12n12_Movie_Review.git
+
+Heroku:
+
+Setup: In Terminal CD to Desktop run $git clone Github repo, CD into project folder,
+       run $bundle to install the Gemfile in Terminal/CLI.
+       start postrges db $ psql
+
+Database Setup: $rake db:create (then $rake db:migrate, and finally $rake db:test:prepare)
+
+Start Rails server with $rails server
+Goto localhost:3000
+
+License: This is free and unencumbered software released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
